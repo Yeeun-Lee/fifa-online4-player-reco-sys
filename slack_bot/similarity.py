@@ -8,4 +8,5 @@ def cos_sim(A, B):
 
 def cos_similarity(player, player1):
     data = pd.read_csv("./slack_bot/db/full_stat.csv")
-    return cos_sim(data[player].values, data[player1].values)
+    data = data.fillna(value=0)
+    return cos_sim(data.loc[player].values, data.loc[player1].values)
