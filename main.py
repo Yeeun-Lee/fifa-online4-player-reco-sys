@@ -2,7 +2,8 @@ import json
 from flask import Flask, request, make_response
 from slacker import Slacker
 
-token = "xoxb-1224553073220-1219342293842-ld19jINZkxrQEDyE5zE80zJZ"
+# write token from slack api
+token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 slack = Slacker(token)
 
 app = Flask(__name__)
