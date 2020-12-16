@@ -1,4 +1,4 @@
-# parrot_slack_bot
+# player_recommender_slack
 
 ## Fifa online 4 - chatbot using slack API
 #### Word2Vec and Recommender system(CF)
