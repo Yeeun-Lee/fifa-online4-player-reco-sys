@@ -1,13 +1,13 @@
 import re
 import time
 
-
 import random
 import pandas as pd
 import numpy as np
 
 from slack_bot.command import slack_client
 from slack_bot.similarity import cos_similarity
+from players2vec.load_model import player_recommend
 
 RTM_READ_DELAY = 0.6 # delay between reading from RTM
 EXAMPLE_COMMAND = "!"
