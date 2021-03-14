@@ -12,10 +12,7 @@ data format(./data/full_player_comparison_final.csv)
 name : string
 preprocessed : list-like string
 """
-# ======================= Preprocessing ==============================
 
-
-# ========================= Modeling ###############################3
 class Players2Vec:
     def __init__(self, df = None):
         self.df = df
